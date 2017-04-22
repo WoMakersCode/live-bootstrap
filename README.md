@@ -7,7 +7,7 @@ Aulas de referência:
 - [Primeiros passos com HTML - Parte I](https://www.youtube.com/watch?v=owefhaTT0AQ&feature=youtu.be)
 - [Primeitos passos com HTML - Parte II](https://www.youtube.com/watch?v=gFf9ChNyCJA)
 - [Introdução ao CSS com BEM (Block Element Modifier)](https://www.youtube.com/watch?v=vrmh9LzFqCM)
-
+- [Construindo uma página web com bootstrap](https://www.youtube.com/watch?v=2sHjaOfAlbA)
 
 
 Para fazer download, clique no botão ``clone or download`` e baixe o Zip.
