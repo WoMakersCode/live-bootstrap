@@ -1,19 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/estilos.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,7 +17,7 @@
   </head>
   <body>
 
-    <header class="navbar">
+    <header class="navbar navbar-wmc">
       <nav class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
@@ -38,16 +32,16 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li>
-              <a href="http://google.com" title="Site do Google" target="_blank">google</a>
+              <a href="http://google.com" title="Site do Google" class="menu-link" target="_blank">google</a>
             </li>
             <li>
-              <a href="http://google.com" title="Site do Google" target="_blank">google</a>
+              <a href="http://google.com" title="Site do Google" class="menu-link" target="_blank">google</a>
             </li>
             <li>
-              <a href="http://google.com" title="Site do Google" target="_blank">google</a>
+              <a href="http://google.com" title="Site do Google" class="menu-link" target="_blank">google</a>
             </li>
             <li>
-              <a href="http://google.com" title="Site do Google" target="_blank">google</a>
+              <a href="http://google.com" title="Site do Google" class="menu-link" target="_blank">google</a>
             </li>
           </ul>
         </div>
@@ -70,7 +64,7 @@
             <div class="carousel-inner" role="listbox">
               
               <div class="item active">
-                <img class="first-slide" src="http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg" alt="First slide">
+                <img class="first-slide" src="http://marcyvetclinic.com/wp-content/uploads/2015/09/cat-care2.jpg" alt="First slide">
                 <div class="container">
                   <div class="carousel-caption">
                     <h1>Example headline.</h1>
@@ -81,7 +75,7 @@
               </div>
 
               <div class="item">
-                <img class="second-slide" src="http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg" alt="Second slide">
+                <img class="second-slide" src="https://www.eurodns.com/assets/images/blog-images/Social-media_2.jpg" alt="Second slide">
                 <div class="container">
                   <div class="carousel-caption">
                     <h1>Another example headline.</h1>
@@ -92,7 +86,7 @@
               </div>
 
               <div class="item">
-                <img class="third-slide" src="http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg" alt="Third slide">
+                <img class="third-slide" src="https://www.hanrob.com.au/media/about-header.jpeg" alt="Third slide">
                 <div class="container">
                   <div class="carousel-caption">
                     <h1>One more for good measure.</h1>
@@ -118,8 +112,47 @@
           </div>
         </div>
       </section>
-      
-      <section class="container">
+
+      <section class="container area-conteudo">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h2>Conteúdo de título</h2>
+            <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
+                  <ul class="nav nav-tabs" id="myTabs" role="tablist">
+                      <li role="presentation" class="active">
+                        <a href="#home" id="home-tab" role="tab" data-toggle="tab" 
+                        aria-controls="home" aria-expanded="true">Calculadora</a>
+                      </li>
+                      <li role="presentation" class="">
+                        <a href="#profile" role="tab" id="profile-tab" 
+                        data-toggle="tab" aria-controls="profile" 
+                        aria-expanded="false">Profile</a>
+                      </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade active in" role="tabpanel" id="home" aria-labelledby="home-tab">
+                          <p>Raw denim you probably haven't heard of them jean shorts Austin. 
+                            Nesciunt tofu stumptown aliqua, retro synth master cleanse. 
+                            Mustache cliche tempor, williamsburg carles vegan helvetica. 
+                            Reprehenderit butcher retro keffiyeh dreamcatcher synth. 
+                            Cosby sweater eu banh mi, qui irure terry richardson ex squid. 
+                            Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, 
+                            butcher voluptate nisi qui.</p>
+                      </div>
+                      <div class="tab-pane fade" role="tabpanel" id="profile" aria-labelledby="profile-tab">
+                          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container area-conteudo">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <h2>Conteúdo de título</h2>
@@ -132,85 +165,7 @@
         </div>
       </section>
 
-      <section class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h2>Conteúdo de título</h2>
-            <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus.</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h2>Conteúdo de título</h2>
-            <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="container">
-        <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
-            <ul class="nav nav-tabs" id="myTabs" role="tablist">
-                <li role="presentation" class="active">
-                  <a href="#home" id="home-tab" role="tab" data-toggle="tab" 
-                  aria-controls="home" aria-expanded="true">Home</a>
-                </li>
-                <li role="presentation" class="">
-                  <a href="#profile" role="tab" id="profile-tab" 
-                  data-toggle="tab" aria-controls="profile" 
-                  aria-expanded="false">Profile</a>
-                </li>
-                <li role="presentation" class="dropdown"> 
-                    <a href="#" class="dropdown-toggle" id="myTabDrop1" 
-                     data-toggle="dropdown" aria-controls="myTabDrop1-contents">Dropdown <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="myTabDrop1" id="myTabDrop1-contents">
-                        <li>
-                          <a href="#dropdown1" role="tab" id="dropdown1-tab" 
-                          data-toggle="tab" aria-controls="dropdown1">@fat</a>
-                        </li>
-                        <li>
-                          <a href="#dropdown2" role="tab" 
-                           id="dropdown2-tab" data-toggle="tab" aria-controls="dropdown2">@mdo
-                          </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade active in" role="tabpanel" id="home" aria-labelledby="home-tab">
-                    <p>Raw denim you probably haven't heard of them jean shorts Austin. 
-                      Nesciunt tofu stumptown aliqua, retro synth master cleanse. 
-                      Mustache cliche tempor, williamsburg carles vegan helvetica. 
-                      Reprehenderit butcher retro keffiyeh dreamcatcher synth. 
-                      Cosby sweater eu banh mi, qui irure terry richardson ex squid. 
-                      Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, 
-                      butcher voluptate nisi qui.</p>
-                </div>
-                <div class="tab-pane fade" role="tabpanel" id="profile" aria-labelledby="profile-tab">
-                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-                </div>
-                <div class="tab-pane fade" role="tabpanel" id="dropdown1" aria-labelledby="dropdown1-tab">
-                    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-                </div>
-                <div class="tab-pane fade" role="tabpanel" id="dropdown2" aria-labelledby="dropdown2-tab">
-                    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
-                </div>
-            </div>
-        </div>
-      </section>
-
-      <section class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h2>Conteúdo de título</h2>
-            <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus.</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h2>Conteúdo de título</h2>
-            <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="container">
+      <section class="container area-conteudo">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <h2>Conteúdo de título</h2>
@@ -229,7 +184,7 @@
             <p class="text-center">texto 1</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <p class="text-right">texto 2</p>
+            <p class="text-center">texto 2</p>
           </div>
         </div>
       </footer>
